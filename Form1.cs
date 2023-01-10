@@ -174,6 +174,7 @@ namespace JogoDaVelha
             labelVez.Text = $"Vez do {vez}";
             button2.Enabled = false;
             VerificaVitoria();
+            VerificaEmpate();
         }
 
         private void button3_Click(object sender, EventArgs e)
